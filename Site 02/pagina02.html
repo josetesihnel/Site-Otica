@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olá!!!</title>
+        
+        <script type="text/javascript" src="script.js">
+        
+        </script>
+        
+        
+    </head>
+    <bory>
+        
+       <button>Alerta</button>
+        
+        <div id="conteudo">
+        
+        
+        </div>
+        
+        <script type="text/javascript">
+            var botoes = 
+            document.getElementsByTagName("button");
+            
+            botoes[0].addEventListener("click", MudarCorFundo); 
+            
+                    
+            botoes[0].addEventListener("click", AdicionarTexto); 
+            
+            function MudarCorFundo() {
+                
+                document.getElementsByTagName("body")
+                [0].style.backgroundColor = "#FF5555";
+            }
+                
+            function AdicionarTexto() {
+                 
+                document.getElementById ("conteudo").innerHTML = "Olá Mundo!";
+                }
+                      
+        </script>
+        
+    </bory>
+</html>
